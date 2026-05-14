@@ -1,0 +1,123 @@
+I want to build an AI-powered Rental Pricing Tool prototype for real estate analysts.
+
+Tech Stack:
+- Frontend: Next.js 15 + TypeScript + Tailwind CSS + shadcn/ui
+- Backend: FastAPI
+- Database: PostgreSQL
+- ORM: SQLAlchemy
+- AI Integration: OpenAI API
+- Optional: pgvector for semantic similarity search
+- Charts: Recharts
+- Maps: Mapbox or Google Maps API
+
+The application should simulate an enterprise-grade AI pricing assistant for rental properties.
+
+Core Features:
+1. Property details input form
+2. AI-generated rental price recommendation
+3. Comparable property matching and ranking
+4. Neighborhood intelligence scoring
+5. Natural language feedback/chat system
+6. Dynamic price recalculation after feedback
+7. Analyst dashboard with pricing insights
+8. Confidence score and pricing explanation
+9. Feedback storage for future learning
+
+Frontend Requirements:
+- Create a modern SaaS-style dashboard UI
+- Use clean card-based layouts
+- Responsive design
+- Sidebar navigation
+- Charts for pricing insights
+- Interactive comparable property cards
+- Chat-style AI feedback panel
+- Professional enterprise design
+
+Backend Requirements:
+- FastAPI REST APIs
+- Modular folder structure
+- Property recommendation endpoint
+- Comparable property ranking endpoint
+- Feedback processing endpoint
+- PostgreSQL integration
+- Pydantic schemas
+- SQLAlchemy models
+- Proper API error handling
+
+Database Design:
+Create tables for:
+- properties
+- comparable_properties
+- pricing_recommendations
+- analyst_feedback
+- neighborhood_metrics
+- users
+
+AI Workflow:
+- Generate estimated rental price
+- Rank similar properties
+- Explain recommendation reasoning
+- Process analyst natural language feedback
+- Recalculate pricing dynamically
+
+Pricing Logic:
+Use weighted scoring based on:
+- Location
+- Area size
+- Amenities
+- School quality
+- Flood risk
+- Nearby transit
+- Road noise
+- Neighborhood appeal
+- Comparable rental history
+
+Comparable Property Logic:
+- Calculate similarity score
+- Show percentage match
+- Explain why a property was selected as comparable
+- Allow removing comparables
+- Allow adjusting comparable weights
+
+Pages To Build:
+1. Login Page
+2. Dashboard
+3. Property Details Page
+4. AI Recommendation Page
+5. Comparable Properties Panel
+6. AI Feedback Chat Interface
+7. Analytics/Admin Page
+
+Project Structure:
+Frontend:
+- app/
+- components/
+- features/
+- services/
+- lib/
+- hooks/
+- types/
+
+Backend:
+- app/
+    - api/
+    - services/
+    - ai/
+    - models/
+    - schemas/
+    - db/
+    - core/
+
+What I need first:
+1. Full project architecture
+2. Folder structure
+3. Database schema
+4. API design
+5. Step-by-step development roadmap
+6. UI wireframe suggestions
+7. MVP feature breakdown
+8. Recommended libraries
+9. Development order
+10. Best practices for scalable implementation
+
+Guide me step-by-step starting from project setup.
